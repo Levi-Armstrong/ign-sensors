@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>ignition_sensors</name>
+  <version>0.1.0</version>
+  <description>Ignition Sensors Package</description>
+  <maintainer email="XXX@gmail.com">XXX</maintainer>
+  <license>Apache 2.0</license>
+  <author>XXXX</author>
+	
+  <depend>ignition_common</depend>
+  <depend>ignition_rendering</depend>
+  <depend>ignition_msgs</depend>
+
+  <export>
+    <build_type>cmake</build_type>
+  </export>
+</package>
